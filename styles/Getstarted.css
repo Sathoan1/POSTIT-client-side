@@ -1,0 +1,95 @@
+.started {
+  text-align: center;
+  width: 653px;
+  background: #fdfeff;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 80px 100px;
+  box-sizing: border-box;
+}
+.getStarted {
+  background-color: rgba(240, 240, 240, 0.94);
+  padding: 70px 0;
+}
+.join {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 60px;
+  padding-bottom: 12px;
+  color: #292929;
+}
+.enter {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #292929;
+  padding-bottom: 38px;
+}
+.inputInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.inputInfo > label {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #292929;
+  /* padding-bottom: 22px; */
+}
+.inputInfo > input {
+  border: none;
+  border-bottom: 1px solid #727272;
+  height: 43px;
+  padding: 5px;
+  outline: none;
+  font-size: 18px;
+}
+.inputInfo input:focus{
+  outline: 1px solid grey;
+}
+.btnContinue {
+  width: 100%;
+  height: 47px;
+  border: none;
+  background: #0086b0;
+  border-radius: 8px;
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 29px;
+}
+.alreadyStart {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 37px;
+  text-align: center;
+  color: #292929;
+}
+@media (max-width: 760px) {
+    .started {
+        width: 83%;
+        padding: 80px 50px;
+    }
+}
+@media (max-width: 450px) {
+    .started {
+        width: 90%;
+        padding: 80px 30px;
+    }
+    .getStarted {
+        padding: 50px 0;
+    }
+}
+

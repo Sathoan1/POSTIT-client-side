@@ -1,0 +1,184 @@
+.Stories {
+    padding: 0 100px;
+}
+.Sto {
+  padding-bottom: 30px;
+}
+.myStories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.myStories > h1 {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107px;
+  letter-spacing: 0.02em;
+  color: #292929;
+}
+.btnWrite {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #f0f8ff;
+  width: 180px;
+  height: 50px;
+  background: #292929;
+  border-radius: 7.83401px;
+}
+.storyNav {
+  display: flex;
+  gap: 30px;
+}
+.storyNav a {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.hrLine {
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+.mainStory {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.main > h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28.2024px;
+  line-height: 40px;
+  padding-bottom: 10px;
+  letter-spacing: 0.02em;
+  color: #292929;
+}
+.main > h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.9352px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #7b7b7b;
+  padding-bottom: 15px;
+}
+.p2 {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 21.9352px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.storyBtn {
+  display: flex;
+  gap: 23.5px;
+}
+.storyEdit {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #f0f8ff;
+  width: 154px;
+  height: 46px;
+  background: #0086b0;
+  border-radius: 7.83401px;
+  border: none;
+}
+.storyDelete {
+  width: 154px;
+  height: 46px;
+  border: 1.5668px solid #0086b0;
+  border-radius: 7.83401px;
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0086b0;
+}
+@media (max-width: 1000px) {
+    .storyBtn {
+        flex-direction: column;
+    }
+}
+@media (max-width: 820px) {
+   .mainStory {
+    gap: 50px;
+   }
+   .storyEdit {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+   }
+   .storyDelete {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+   }
+}
+@media (max-width: 730px) {
+    .mainStory {
+     gap: 30px;
+    }
+    .Stories {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 620px) {
+    .mainStory {
+     gap: 0px;
+    }
+    .myStories > h1 {
+        font-size: 42px;
+    }
+    .btnWrite {
+        width: 120px;
+        font-size: 18px;
+        height: 40px;
+    }
+    .storyNav > h2 {
+        font-size: 22px;
+        line-height: 50px;
+    }
+    .storyNav > h3 {
+        font-size: 22px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 540px) {
+  .mainStory {
+    flex-direction: column;
+  }
+.storyBtn {
+    flex-direction: row;
+}
+ }
+ @media (max-width: 480px) {
+    .myStories > h1 {
+        width: 2ch;
+        line-height: 55px;
+    }
+    .storyNav {
+        padding-top: 20px;
+    }
+    .Stories {
+        padding: 0 20px;
+    }
+ }

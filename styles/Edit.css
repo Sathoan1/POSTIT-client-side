@@ -1,0 +1,161 @@
+.newTask {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 45px 0;
+}
+.newTask > h1 {
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 62px;
+  color: #292929;
+}
+#taskTitle {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #b8b6b6;
+  border-radius: 5px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+#describe {
+  width: 100%;
+  /* height: 200px; */
+  padding-bottom: 300px;
+  padding-top: 28px;
+  padding-left: 20px;
+  border: 1px solid #b8b6b6;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+#tags {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #b8b6b6;
+  border-radius: 5px;
+}
+.titleTask {
+  position: relative;
+  margin-bottom: 50px;
+}
+.titleTask > label {
+  position: absolute;
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: #9c9c9c;
+  left: 45px;
+  bottom: 45px;
+  background-color: white;
+}
+.descripTion {
+  position: relative;
+  margin-bottom: 40px;
+}
+.descripTion > label {
+  position: absolute;
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: #9c9c9c;
+  left: 45px;
+  bottom: 369px;
+  background-color: white;
+}
+.tagS {
+  position: relative;
+  margin-bottom: 40px;
+}
+.tagS > label {
+  position: absolute;
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: #9c9c9c;
+  left: 45px;
+  bottom: 42px;
+  background-color: white;
+}
+select {
+  font-size: 18px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.Btndone {
+  text-align: center;
+}
+.btnDone {
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  border: none;
+  color: #faf9fb;
+  width: 438.55px;
+  height: 60px;
+  background: #0086b0;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.toTop {
+  font-family: "Signika Negative";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-decoration: underline;
+  color: #974fd0;
+  text-align: center;
+  padding-top: 70px;
+}
+.task3 {
+  padding: 0 11%;
+  padding-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .btnDone {
+    width: 50%;
+    height: 60px;
+    font-size: 25px;
+  }
+}
+@media (max-width: 450px) {
+  .newTask > h1 {
+    font-size: 35px;
+  }
+  .arrow {
+    width: 13px;
+  }
+  .titleTask > label {
+    left: 25px;
+  }
+  .tagS > label {
+    font-size: 25px;
+    left: 25px;
+  }
+  .btnDone {
+    height: 50px;
+    font-size: 20px;
+  }
+  #describe {
+    width: 100%;
+    padding-bottom: 200px;
+  }
+  .descripTion > label {
+    bottom: 233px;
+    font-size: 20px;
+  }
+  .task3 {
+    padding: 0 17px;
+  }
+}

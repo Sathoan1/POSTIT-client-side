@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Harmattan&display=swap");
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Harmattan", sans-serif;
+}
+.text-pri{
+  color: #0086b0;
+}
+
+.view-post {
+  margin: auto;
+  
+}
+
+.view-post .card {
+  margin: 3rem 0 0 0;
+  /* width: 40rem; */
+  margin: auto;
+ 
+}
+
+.view-post .cover-image {
+  height: 50vh;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+
+.view-post .underline {
+  border-bottom: 1px solid lightgrey;
+}
+
+.tag {
+  background-color: #0086b0;
+  width: fit-content;
+  padding: 8px 1rem;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.story-div{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.tag-nature{
+  background-color:  #41D750;;
+}
+.tag-sport{
+  background-color: #F42A2A;
+}
+.tag-lifestyle{
+  background-color: #E5BF5E;
+}
+.tag-tech{
+  background-color: #6397E5;
+}
+.tag-others{
+  background-color: #e56397;
+}
+.toggleBtn{
+  background: transparent;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: grey;
+}
+
+
+@media screen and (min-width: 900px ) {
+  .story-div {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}

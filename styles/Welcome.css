@@ -1,0 +1,88 @@
+.Welcome {
+  display: flex;
+  gap: 100px;
+  padding: 100px;
+  background: #F5F6F8;
+
+
+}
+.welcome1 > h1 {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  color: #292929;
+  padding-bottom: 20px;
+}
+.welcome1 > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.btnStory {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #f0f8ff;
+  width: 210px;
+  height: 52px;
+  border: none;
+  background: #0086b0;
+  border-radius: 5px;
+}
+.btnFeed {
+  font-family: "Harmattan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  letter-spacing: 0.02em;
+  width: 210px;
+  height: 52px;
+  border: 1px solid #0086b0;
+  border-radius: 5px;
+  color: #0086b0;
+}
+.btn_S {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+@media (max-width: 1200px) {
+    .scrabble {
+        width: 100%;
+    }
+}
+@media (max-width: 1050px) {
+    .Welcome {
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 540px) {
+    .Welcome {
+        padding: 100px 50px;
+    }
+    .welcome1 > h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .welcome1 > p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+@media (max-width: 540px) {
+    .Welcome {
+        padding: 100px 40px;
+    }
+}
